@@ -1,1 +1,51 @@
-$primary_color: rgb(31, 157, 196);
+$primary-color: rgb(31, 157, 196);
+$defultFontSize: 16px;
+$primary-color-hover:  rgb(81, 199, 235);
+
+$menu_color: #252527;
+
+$font-light: #fff;
+$font-grey-light: #e8e8e8;
+$font-grey: #808080;
+$font-grey-dark: #000;
+$font-dark-light: #252527;
+$font-dark: #000;
+
+$border-light: #fff;
+$border-grey-light: #e8e8e8;
+$border-grey: #808080;
+$border-grey-dark: #595959;
+$border-dark-light: #252527;
+$border-dar: #000;
+
+$background-light: #fff;
+$background-grey-light: #e8e8e8;
+$background-grey: #808080;
+$background-grey-dark: #595969;
+$background-dark-light: #252527;
+$background-dark: #000;
+
+$success: #a0e951;
+$error: #f00;
+
+/* Breakpoints estandarizados:
+Moviles: entre 320 y 480 px
+Tablets: entre 768 y 1024 px
+Pantallas grandes: más de 1200 px
+*/
+
+$media-breackpoint-down-xs: 413.98px;
+$media-breackpoint-down-sm: 573.98px;
+$media-breackpoint-down-md: 767.98px;
+$media-breackpoint-down-lg: 991.98px;
+$media-breackpoint-down-xl: 1199.98px;
+
+$media-breackpoint-up-xs: 320.98px;
+$media-breackpoint-up-sm: 576.98px;
+$media-breackpoint-up-md: 768.98px;
+$media-breackpoint-up-lg: 992.98px;
+$media-breackpoint-up-xl: 1200.98px;
+
+
+
+
