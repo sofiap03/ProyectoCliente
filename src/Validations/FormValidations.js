@@ -1,6 +1,5 @@
 export function minLengthValidation(inputData, minLength) {
-    const { value } = inputData;
-  
+    const { value } = inputData; 
     removeClassErrorSuccess(inputData);
   
     if (value.length >= minLength) {
@@ -14,7 +13,7 @@ export function minLengthValidation(inputData, minLength) {
   
   export function emailValidation(inputData) {
     // eslint-disable-next-line no-useless-escape
-    const emailValid = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    const emailValid = /^(([^<>()\[\]\\.,;:\s@”]+(\.[^<>()\[\]\\.,;:\s@”]+)*)|(“.+”))@((\[[0–9]{1,3}\.[0–9]{1,3}\.[0–9]{1,3}\.[0–9]{1,3}])|(([a-zA-Z\-0–9]+\.)+[a-zA-Z]{2,}))$/;
     const { value } = inputData;
   
     removeClassErrorSuccess(inputData);
